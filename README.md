@@ -5,7 +5,7 @@ Using EFK stack in kubernetes on windows
 I used some code from other places, will just give links (rather than submodules & symlinks) due to having symlink problems in the past.
 
 ## Prerequisites
-*Ensure you are using a rs_prelease `18239` or higher build*
+*Ensure you are using a Windows Server 2019 that is up to date or containing https://support.microsoft.com/en-us/help/4482887/windows-10-update-kb4482887 at a minimum.*
 
 ## Steps
 1. Compile all Docker files for efk stack (assumes microsoft/windowservercore:latest is correctly tagged)
